@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Github User Finder App</title>
+</head>
+<body>
+    <header>
+        <div class="head">RepoScout</div>
+
+        <div class="light-dark mode">
+
+            <button class="color-mode_btn light--hidden" aria-label="Toggle light mode">
+                LIGHT
+                <ion-icon name="sunny"></ion-icon>
+            </button>
+
+            <button class="color-mode_btn dark--hidden" aria-label="Toggle dark mode">
+                DARK
+                <ion-icon name="moon"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="searchText">
+            <li class="searchIcon"><ion-icon name="search"></ion-icon></li>
+            <input type="text" placeholder="Search Github username...">
+        </div>
+        <div class="searchbtn">Search</div>
+    </div>
+
+    <div class="resultBody">
+        <div class="githubHead">
+            <div class="mainImg"></div>
+                <div class="githubInfo">
+                    <div class="githubUser">Github Username</div>
+                    <div class="githubUserName"><a href="">@githubusername</a></div>
+                    <div class="githubJoinedDate">Joined Date</div>
+                </div>
+        </div>
+
+        <div class="githubFact">
+            
+            <div class="githubBio">Github Bio...</div>
+
+            <div class="githubRepo">
+
+                <div class="repos">
+                    <div class="repoHeading">Repos</div>
+                    <div class="repoTotal">0</div>
+                </div>
+
+                <div class="followers">
+                    <div class="followerHeading">Followers</div>
+                    <div class="followerTotal">0</div>
+                </div>
+
+                <div class="following">
+                    <div class="followingHeading">Following</div>
+                    <div class="followingTotal">0</div>
+                </div>
+            </div>
+
+            
+            <div class="githubSocial">
+                <div class="location">
+                    <li class="iconn"><ion-icon name="pin"></ion-icon></li>
+                    <p class="locations">Location</p>
+                </div>
+                <div class="instagram">
+                    <li class="iconn"><ion-icon name="logo-instagram"></ion-icon></li>
+                    <p class="insta">Instagram</p>
+                </div>
+                <div class="website">
+                    <li class="iconn"><ion-icon name="link"></ion-icon></li>
+                    <p class="websites">Website</p>
+                </div>
+                <div class="company">
+                    <li class="iconn"><ion-icon name="paper"></ion-icon></li>
+                    <p class="companies">Company</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
